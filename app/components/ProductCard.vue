@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-const { produc } = defineProps(["product"]);
+const { product } = defineProps(["product"]);
 </script>
 
 <style scoped>
