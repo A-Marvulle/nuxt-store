@@ -8,7 +8,21 @@ body {
 
 @layer components {
   .btn {
-    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+    @apply bg-[#12b488] 
+         text-white 
+         px-3 py-2 
+         rounded-md 
+         text-sm 
+         hover:bg-[#12b488]/80 
+         focus:outline 
+         focus:outline-2 
+         focus:outline-offset-2 
+         focus:outline-[#12b488] 
+         active:bg-[#12b488]/80;
+  }
+
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full flex flex-col justify-between;
   }
 }
 
